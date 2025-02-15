@@ -36,14 +36,14 @@ license = {text = "Apache-2.0"}
 dynamic = ["dependencies"]
 
 [project.urls]
-homepage = "https://github.com/NVIDIA/Cosmos/"
-issues = "https://github.com/NVIDIA/Cosmos/issues"
+homepage = "https://github.com/Saloni1Parekh609/Cosmos/"
+issues = "https://github.com/Saloni1Parekh609/Cosmos/issues"
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 
-[tool.setuptools]
-packages = ["cosmos1"]
+[tool.setuptools.packages.find]
+include = ["cosmos1*"]
 
 [tool.isort]
 profile = "black"
