@@ -28,6 +28,7 @@ nltk
 peft
 pillow
 pytorch_retinaface @ git+https://github.com/NVlabs/Pytorch_Retinaface.git@b843f45
+pynvml
 sentencepiece
 termcolor
 transformers
