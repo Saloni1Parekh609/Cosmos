@@ -32,3 +32,4 @@ pynvml
 sentencepiece
 termcolor
 transformers
+opencv-python
