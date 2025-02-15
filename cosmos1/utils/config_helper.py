@@ -140,7 +140,7 @@ def get_config_module(config_file: str) -> str:
     if not config_file.endswith(".py"):
         log.error("Config file cannot be specified as module.")
         log.error("Please provide the path to the Python config file (relative to the Cosmos root).")
-    assert os.path.isfile(config_file), f"Cosmos config file ({config_file}) not found."
+    # assert os.path.isfile(config_file), f"Cosmos config file ({config_file}) not found."
     # Convert to importable module format.
     config_module = config_file.replace("/", ".").replace(".py", "")
     return config_module
