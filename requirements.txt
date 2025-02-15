@@ -15,6 +15,7 @@
 
 # Please keep requirements sorted alphabetically
 av
+attrs
 better-profanity
 einops
 einx==0.1.3
